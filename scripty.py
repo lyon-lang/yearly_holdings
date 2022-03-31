@@ -17,4 +17,3 @@ for csvfile in glob.glob(os.path.join('.', '*.csv')):
     worksheet.write('A1', 'Date')
     worksheet.write('B1', 'Brazil')
     workbook.close()
-
